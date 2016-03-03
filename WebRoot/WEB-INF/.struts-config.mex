@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/vipLoginPage.jsp" location="2569,1327" dimension="135,53" />
+  <StrutsActivity path="/jsp/newsManage/viewAllBusNews.jsp" location="1899,1042" dimension="253,53" />
+  <StrutsActivity path="/jsp/newsManage/viewOneBusNews.jsp" location="2267,757" dimension="263,53" />
+  <StrutsActivity path="/jsp/traficManage/spotQuery/spotQuryResult.jsp" location="646,187" dimension="316,53" />
+  <StrutsActivity path="/jsp/resortManage/addResort.jsp" location="2081,1327" dimension="228,53" />
+  <StrutsActivity path="/jsp/resortManage/detailResort.jsp" location="1208,1327" dimension="237,53" />
+  <StrutsActivity path="/jsp/resortManage/addResortOK.jsp" location="309,1327" dimension="246,53" />
+  <StrutsActivity path="/jsp/resortManage/showAllResort.jsp" location="2515,1042" dimension="249,53" />
+  <StrutsActivity path="/jsp/newsManage/addBusNews.jsp" location="179,187" dimension="237,53" />
+  <StrutsActivity path="/MainIndex.jsp" location="7,1612" dimension="118,53" />
+  <StrutsActivity path="/loginPage.jsp" location="183,1612" dimension="115,53" />
+  <StrutsActivity path="/jsp/resortManage/dealUndoneResort.jsp" location="1711,472" dimension="276,53" />
+  <StrutsActivity path="/vipUserEnroll.jsp" location="2760,1327" dimension="134,53" />
+  <StrutsActivity path="/jsp/resortManage/dealOneResort.jsp" location="1589,1042" dimension="254,53" />
+  <StrutsActivity path="/jsp/resortManage/dealDoneResort.jsp" location="641,1042" dimension="261,53" />
+  <StrutsActivity path="/jsp/resortManage/queryOneResort.jsp" location="5,1042" dimension="262,53" />
+  <StrutsActivity path="/regVipUser.jsp" location="2378,1327" dimension="123,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/viewAllLostThings.jsp" location="355,472" dimension="288,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/viewOneLostThings.jsp" location="2088,187" dimension="298,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/addOneLostThings.jsp" location="2442,187" dimension="296,53" />
+  <StrutsActivity path="/jsp/thingManage/got/viewAllGotThings.jsp" location="699,472" dimension="284,53" />
+  <StrutsActivity path="/jsp/thingManage/got/viewOneGotThings.jsp" location="5,472" dimension="294,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/addLostThing.jsp" location="982,757" dimension="266,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/dealLostThing.jsp" location="658,757" dimension="268,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/detailLostThing.jsp" location="2375,472" dimension="275,53" />
+  <StrutsActivity path="/jsp/thingManage/lost/editLostThing.jsp" location="1626,757" dimension="265,53" />
+  <StrutsActivity path="/jsp/thingManage/got/addGotThing.jsp" location="323,1042" dimension="262,53" />
+  <StrutsActivity path="/jsp/thingManage/got/dealGotThings.jsp" location="332,757" dimension="270,53" />
+  <StrutsActivity path="/jsp/thingManage/got/detailGotThing.jsp" location="5,757" dimension="271,53" />
+  <StrutsActivity path="/jsp/thingManage/got/editGotThing.jsp" location="958,1042" dimension="261,53" />
+  <StrutsActivity path="/jsp/newsManage/dealBusNews.jsp" location="913,1327" dimension="239,53" />
+  <StrutsActivity path="/jsp/newsManage/detailBusNews.jsp" location="611,1327" dimension="246,53" />
+  <StrutsActivity path="/jsp/newsManage/editBusNews.jsp" location="1501,1327" dimension="236,53" />
+  <StrutsActivity path="/jsp/sysManage/busMoney/dealBusMoney.jsp" location="1018,187" dimension="302,53" />
+  <StrutsActivity path="/jsp/sysManage/user/dealVipUser.jsp" location="2208,1042" dimension="251,53" />
+  <StrutsActivity path="/jsp/sysManage/user/addVipUser.jsp" location="2820,1042" dimension="249,53" />
+  <StrutsActivity path="/jsp/sysManage/user/detailVipUser.jsp" location="1275,1042" dimension="258,53" />
+  <StrutsActivity path="/jsp/sysManage/user/editVipUser.jsp" location="5,1327" dimension="248,53" />
+  <StrutsActivity path="/jsp/sysManage/manager/editManager.jsp" location="1039,472" dimension="282,53" />
+  <StrutsActivity path="/jsp/sysManage/busPad/dealBusPad.jsp" location="1304,757" dimension="266,53" />
+  <StrutsActivity path="/jsp/sysManage/busPad/addBusPad.jsp" location="1947,757" dimension="264,53" />
+  <StrutsActivity path="/jsp/sysManage/busPad/editBusPad.jsp" location="2586,757" dimension="263,53" />
+  <StrutsActivity path="/jsp/sysManage/busType/dealBusType.jsp" location="1377,472" dimension="278,53" />
+  <StrutsActivity path="/jsp/sysManage/busType/addBusType.jsp" location="2043,472" dimension="276,53" />
+  <StrutsActivity path="/jsp/sysManage/busType/editBusType.jsp" location="2706,472" dimension="275,53" />
+  <StrutsActivity path="/jsp/sysManage/routeType/addRouteType.jsp" location="1733,187" dimension="299,53" />
+  <StrutsActivity path="/jsp/sysManage/routeType/dealRouteType.jsp" location="1376,187" dimension="301,53" />
+  <StrutsActivity path="/jsp/thingManage/addThingPic.jsp" location="1793,1327" dimension="232,53" />
+  <StrutsActivity path="/jsp/sysManage/busCompany/dealBusCompany.jsp" location="3650,1350" dimension="332,53" />
+  <StrutsActivity path="/jsp/sysManage/busCompany/addBusCompany.jsp" location="3050,2150" dimension="330,53" />
+  <StrutsActivity path="/jsp/sysManage/busCompany/editBusCompany.jsp" location="3050,2350" dimension="329,53" />
+  <StrutsActivity path="/jsp/traficManage/routeManage/dealBusRoute.jsp" location="3650,2750" dimension="325,53" />
+  <StrutsActivity path="/jsp/traficManage/routeManage/addBusRoute.jsp" location="1250,2950" dimension="323,53" />
+  <StrutsActivity path="/jsp/traficManage/routeManage/editBusRoute.jsp" location="2450,2950" dimension="322,53" />
+  <StrutsActivity path="/jsp/traficManage/bus/dealBus.jsp" location="350,3150" dimension="238,48" />
+  <StrutsActivity path="/jsp/traficManage/bus/addBus.jsp" location="2150,3150" dimension="232,48" />
+  <StrutsActivity path="/jsp/traficManage/bus/detailBus.jsp" location="350,3250" dimension="250,48" />
+  <StrutsActivity path="/jsp/traficManage/bus/editBus.jsp" location="50,3350" dimension="238,48" />
+  <StrutsActivity path="/jsp/traficManage/spotManage/dealBusSpot.jsp" location="3050,3350" dimension="304,48" />
+  <StrutsActivity path="/jsp/traficManage/spotRoute/spotRoutePage.jsp" location="4250,1850" dimension="310,48" />
+  <StrutsActivity path="/jsp/traficManage/spotRoute/detailSpotRoute.jsp" location="4250,2650" dimension="322,48" />
+  <StrutsActivity path="/jsp/traficManage/spotRoute/dealSpotRoute.jsp" location="4250,2350" dimension="310,48" />
+  <StrutsActivity path="/jsp/traficManage/spotRoute/spotRoutePage2.jsp" location="3650,3850" dimension="316,48" />
+  <StrutsActivity path="/jsp/traficManage/spotRoute/dealSpotRoute2.jsp" location="50,3950" dimension="316,48" />
+  <StrutsActivity path="/jsp/traficManage/traffic/viewOneBusRoute.jsp" location="3650,3750" dimension="310,48" />
+  <StrutsActivity path="/jsp/traficManage/traffic/viewOneBusSpot.jsp" location="3050,4050" dimension="304,48" />
+  <StrutsActivity path="/jsp/traficManage/spotQuery/spotQueryPage.jsp" location="1850,4150" dimension="310,48" />
+  <StrutsActivity path="/jsp/sysManage/addBusCompany.jsp" location="3050,1950" dimension="249,53" />
+  <StrutsActivity path="/jsp/traficManage/traffic/viewOneSpot.jsp" location="4250,3950" dimension="275,53" />
+  <StrutsActivity path="/email.do" />
+  <StrutsActivity path="emailPage;6" />
+  <StrutsActivity path="/tab/email.jsp" />
+  <StrutsTransition id="toAddGotThingsM;6,null,/jsp/thingManage/got/addGotThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="454,942" />
+      <AbsolutePoint location="454,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="spotQuryResult;6,null,/jsp/traficManage/spotQuery/spotQuryResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="804,87" />
+      <AbsolutePoint location="804,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="queryOneBusRoute;6,null,/jsp/traficManage/traffic/viewOneBusRoute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2766,3774" />
+      <AbsolutePoint location="3650,3774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="dealAllUndoneResort;6,null,/jsp/resortManage/dealUndoneResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1849,372" />
+      <AbsolutePoint location="1849,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusSpot;6,null,/jsp/traficManage/spotManage/dealBusSpot.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2760,3374" />
+      <AbsolutePoint location="3050,3374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBus;6,null,/jsp/traficManage/bus/dealBus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="294,3174" />
+      <AbsolutePoint location="350,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyOneSpotRoute2;6,null,/jsp/traficManage/spotRoute/dealSpotRoute2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,3886" />
+      <AbsolutePoint location="208,3886" />
+      <AbsolutePoint location="208,3950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddBusCompany;6,null,/jsp/sysManage/busCompany/addBusCompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3780,1837" />
+      <AbsolutePoint location="3780,2099" />
+      <AbsolutePoint location="3215,2099" />
+      <AbsolutePoint location="3215,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddBusType;6,null,/jsp/sysManage/busType/addBusType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2181,372" />
+      <AbsolutePoint location="2181,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="allBusNews;6,null,/jsp/newsManage/viewAllBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2026,942" />
+      <AbsolutePoint location="2026,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="dealOneResort;6,null,/jsp/resortManage/dealOneResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1716,942" />
+      <AbsolutePoint location="1716,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllRouteType;6,null,/jsp/sysManage/routeType/dealRouteType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1527,87" />
+      <AbsolutePoint location="1527,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="detailBus;6,null,/jsp/traficManage/bus/detailBus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3778,3150" />
+      <AbsolutePoint location="3778,3099" />
+      <AbsolutePoint location="1708,3099" />
+      <AbsolutePoint location="1708,3274" />
+      <AbsolutePoint location="600,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyBusCompany;6,null,/jsp/sysManage/busCompany/editBusCompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2218" />
+      <AbsolutePoint location="3214,2218" />
+      <AbsolutePoint location="3214,2350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showDetailGotThing;6,null,/jsp/thingManage/got/viewOneGotThings.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="152,372" />
+      <AbsolutePoint location="152,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="dealDoneResort;6,null,/jsp/resortManage/dealDoneResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="772,942" />
+      <AbsolutePoint location="772,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="managerLogin;6,null,/MainIndex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="66,1512" />
+      <AbsolutePoint location="66,1612" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="queryOneResort;6,null,/jsp/resortManage/detailResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1327,1227" />
+      <AbsolutePoint location="1327,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllGotThingsM;6,null,/jsp/thingManage/got/dealGotThings.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="467,657" />
+      <AbsolutePoint location="467,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllVipUser;6,null,/jsp/sysManage/user/dealVipUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2334,942" />
+      <AbsolutePoint location="2334,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="mLogin;6,null,/loginPage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="241,1512" />
+      <AbsolutePoint location="241,1612" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="detailLostThing;6,null,/jsp/thingManage/lost/detailLostThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2513,372" />
+      <AbsolutePoint location="2513,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="oneNews;6,null,/jsp/newsManage/viewOneBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2399,657" />
+      <AbsolutePoint location="2399,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusPad;6,null,/jsp/sysManage/busPad/dealBusPad.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1437,657" />
+      <AbsolutePoint location="1437,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toShowAllSpotRoute2;6,null,/jsp/traficManage/spotRoute/spotRoutePage2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4711,2022" />
+      <AbsolutePoint location="4711,3874" />
+      <AbsolutePoint location="3966,3874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusCompany;6,null,/jsp/sysManage/busCompany/dealBusCompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3816,1550" />
+      <AbsolutePoint location="3816,1403" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusType;6,null,/jsp/sysManage/busType/dealBusType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1516,372" />
+      <AbsolutePoint location="1516,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddBusPad;6,null,/jsp/sysManage/busPad/addBusPad.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2079,657" />
+      <AbsolutePoint location="2079,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="addBusNews;6,null,/jsp/newsManage/addBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="124,87" />
+      <AbsolutePoint location="124,137" />
+      <AbsolutePoint location="238,137" />
+      <AbsolutePoint location="238,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="detailBusNews;6,null,/jsp/newsManage/detailBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="734,1227" />
+      <AbsolutePoint location="734,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyLostThing;6,null,/jsp/thingManage/lost/editLostThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1759,657" />
+      <AbsolutePoint location="1759,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllResort;6,null,/jsp/resortManage/showAllResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2640,942" />
+      <AbsolutePoint location="2640,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddRouteType;6,null,/jsp/sysManage/routeType/addRouteType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1883,87" />
+      <AbsolutePoint location="1883,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="addResortOk;6,null,/jsp/resortManage/addResortOK.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="432,1227" />
+      <AbsolutePoint location="432,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusMoney;6,null,/jsp/sysManage/busMoney/dealBusMoney.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1169,87" />
+      <AbsolutePoint location="1169,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddBus;6,null,/jsp/traficManage/bus/addBus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2088,3174" />
+      <AbsolutePoint location="2150,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddBusRoute;6,null,/jsp/traficManage/routeManage/addBusRoute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="984,2976" />
+      <AbsolutePoint location="1250,2976" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllLostThings;6,null,/jsp/thingManage/lost/viewAllLostThings.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="499,372" />
+      <AbsolutePoint location="499,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="queryOneBusSpot;6,null,/jsp/traficManage/traffic/viewOneBusSpot.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3793,3993" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toSpotToSpotPage;6,null,/jsp/traficManage/spotQuery/spotQueryPage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1566,4174" />
+      <AbsolutePoint location="1850,4174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="queryOneResortH;6,null,/jsp/resortManage/queryOneResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="136,942" />
+      <AbsolutePoint location="136,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="vipUserEnroll;6,null,/vipUserEnroll.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2827,1227" />
+      <AbsolutePoint location="2827,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="loginPage;6,null,/vipLoginPage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2637,1227" />
+      <AbsolutePoint location="2637,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyBusNews;6,null,/jsp/newsManage/editBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1619,1227" />
+      <AbsolutePoint location="1619,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="detailVipUser;6,null,/jsp/sysManage/user/detailVipUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1404,942" />
+      <AbsolutePoint location="1404,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyOneSpotRoute;6,null,/jsp/traficManage/spotRoute/dealSpotRoute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="detailGotThing;6,null,/jsp/thingManage/got/detailGotThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="141,657" />
+      <AbsolutePoint location="141,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddBusNews;6,null,/jsp/newsManage/addBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="472,87" />
+      <AbsolutePoint location="472,137" />
+      <AbsolutePoint location="357,137" />
+      <AbsolutePoint location="357,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toShowAllSpotRoute;6,null,/jsp/traficManage/spotRoute/spotRoutePage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4405,1722" />
+      <AbsolutePoint location="4405,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showDetailThing;6,null,/jsp/thingManage/lost/viewOneLostThings.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2237,87" />
+      <AbsolutePoint location="2237,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusNews2;6,null,/jsp/newsManage/dealBusNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1033,1227" />
+      <AbsolutePoint location="1033,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyVipUser;6,null,/jsp/sysManage/user/editVipUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="129,1227" />
+      <AbsolutePoint location="129,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllBusRoute;6,null,/jsp/traficManage/routeManage/dealBusRoute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3386,2776" />
+      <AbsolutePoint location="3650,2776" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyBus;6,null,/jsp/traficManage/bus/editBus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,3313" />
+      <AbsolutePoint location="169,3313" />
+      <AbsolutePoint location="169,3350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddThingsM;6,null,/jsp/thingManage/lost/addLostThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1115,657" />
+      <AbsolutePoint location="1115,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllThings;6,null,/jsp/thingManage/got/viewAllGotThings.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="841,372" />
+      <AbsolutePoint location="841,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyBusRoute;6,null,/jsp/traficManage/routeManage/editBusRoute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2183,2976" />
+      <AbsolutePoint location="2450,2976" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toLoadRegVipUser;6,null,/regVipUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2439,1227" />
+      <AbsolutePoint location="2439,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="emailPage;6,null,/tab/email.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyBusPad;6,null,/jsp/sysManage/busPad/editBusPad.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2718,657" />
+      <AbsolutePoint location="2718,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAdd;6,null,/jsp/resortManage/addResort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2195,1227" />
+      <AbsolutePoint location="2195,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddVipUser;6,null,/jsp/sysManage/user/addVipUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2945,942" />
+      <AbsolutePoint location="2945,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toAddThings;6,null,/jsp/thingManage/lost/addOneLostThings.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2590,87" />
+      <AbsolutePoint location="2590,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="showAllLostThingsM;6,null,/jsp/thingManage/lost/dealLostThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="792,657" />
+      <AbsolutePoint location="792,757" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyGotThing;6,null,/jsp/thingManage/got/editGotThing.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1089,942" />
+      <AbsolutePoint location="1089,1042" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyManager;6,null,/jsp/sysManage/manager/editManager.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1180,372" />
+      <AbsolutePoint location="1180,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="toModifyBusType;6,null,/jsp/sysManage/busType/editBusType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2844,372" />
+      <AbsolutePoint location="2844,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="addGotPicture;6,null,/jsp/thingManage/addThingPic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1909,1227" />
+      <AbsolutePoint location="1909,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="detailOneSpotRoute;6,null,/jsp/traficManage/spotRoute/detailSpotRoute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4411,2522" />
+      <AbsolutePoint location="4411,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

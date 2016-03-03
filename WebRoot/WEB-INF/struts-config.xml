@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans>
+    
+    <form-bean name="originationForm" type="org.apache.struts.validator.DynaValidatorActionForm">
+    </form-bean>
+  
+  </form-beans>
+  <global-exceptions />
+  <global-forwards>
+  	<forward name="emailPage" path="/tab/email.jsp"></forward>
+  </global-forwards>
+  <action-mappings>
+  
+  <action
+      parameter="email" 	
+      validate="false"
+      name="originationForm"
+      path="/email"
+      scope="request"
+      type="com.scm.struts.action.OriginationAction" />
+  
+  
+  </action-mappings>
+
+  
+  
+ 
+  <controller processorClass="org.springframework.web.struts.DelegatingRequestProcessor"></controller>
+  <message-resources parameter="com.snc.struts.ApplicationResources" />
+   
+</struts-config>
+

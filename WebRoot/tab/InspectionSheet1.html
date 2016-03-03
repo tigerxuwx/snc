@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>送检单</title>
+
+<link rel="stylesheet" type="text/css" href="default.css" />
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/order.js"></script>
+
+</head>
+<body>
+<div style="border-bottom:thin #999999; margin:50px 10px;"><img src="images/logo.jpg" /><span style="font-size:18px">英利绿色能源控股有限公司-送检单</span></div>
+
+<div class="imgleft textDescript" >
+
+							<em><b>订单</b></em>
+
+							<ul >
+
+								<li>订单编码：4500000001</li>
+
+								<li>订单条码：<img src="images/bar.gif" width="148" height="41" /></li>
+
+							    <li>送检单编码：1234567</li>
+						    </ul>
+
+</div>
+<div class="imgleft textDescript" >
+
+							<em><b>出货方</b></em>
+
+                            <ul >
+
+								<li>供应商编码：100000</li>
+
+								<li>供应商名称：东营耐尔科技有限公司</li>
+
+							    <li>供应地址：山东省东营市东城经济开发区广州路6号</li>
+                                
+							    <li>银行账户：370016556010501632</li>
+  </ul>
+
+</div>
+					<div class="textDescript imgright">
+
+						  <em><b>收货方</b></em>
+
+					  <ul >
+
+								<li>收货方：中国英利</li>
+
+								<li>具体地址：河北省保定市朝阳路英利三期</li>
+
+								<li>收货库位：四期仓库</li>
+
+								<li>收货人：张孟娜</li>
+							    <li>联系方式：151324404592</li>
+					  </ul>
+
+						</div>
+
+
+<table id="order-table">
+	<tr> 
+        <th>编号</th>
+        <th>编码</th>
+		<th>商品名称</th>
+        <th>剩余数量</th>
+		<th>配送数量</th>
+      <th>检验结果</th>
+		<th>合格数量</th>
+        <th>不合格</th>
+        <th>换回</th>
+        <th>入库</th>
+	</tr>
+	<tr class="odd">
+       <td>10</td>
+        <td>C11030030020102300</td>
+		<td class="product-title">P/单/三栅156*156*180/17.0~16.0英利/主葫芦细连栅/C</td>
+        <td>20</td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+        <td ></td>
+	</tr>
+	<tr class="even">
+       <td>20</td>
+		 <td>C11030030020102300</td>
+		<td class="product-title">P/单/三栅156*156*180/17.0~16.0英利/主葫芦细连栅/C</td>
+         <td>20</td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+        <td ></td>
+	</tr>
+	<tr class="odd">
+    <td>30</td>
+		 <td>C11030030020102300</td>
+		<td class="product-title">P/单/三栅156*156*180/17.0~16.0英利/主葫芦细连栅/C</td>
+        <td>20</td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+        <td ></td>
+	</tr>
+	
+	
+	
+	
+	<tr class="even">
+         <td>40</td>
+		 <td>C11030030020102300</td>
+		<td class="product-title">P/单/三栅156*156*180/17.0~16.0英利/主葫芦细连栅/C</td>
+    <td>20</td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+		<td ></td>
+        <td ></td>
+	</tr>
+	
+</table>
+
+<table width="100%"  style="margin:30px; text-align:left;">
+  <tr>
+   
+    <td width="20">制单：发货人</td>
+    <td width="20">SAP入库凭证：</td>
+    <td width="20">采购业务员：</td> 
+    <td width="20">收货：</td>
+    <td width="20">质检：</td>
+
+  </tr>
+    <tr>
+   
+    <td width="20">日期：</td>
+    <td width="20">日期：</td>
+    <td width="20">日期：</td> 
+    <td width="20">日期：</td>
+    <td width="20">日期：</td>
+
+  </tr>
+</table>
+
+
+<div class="clear"></div>
+
+<div style="text-align:right;">
+	<input id="printbtn" type="submit" onClick="javascript:window.print(); " value="打印" class="submit" />
+</div>
+
+	<script src="media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+<script src="media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+<script src="media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+
+<script src="media/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script src="media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+<script src="media/js/jquery.blockui.min.js" type="text/javascript"></script>  
+
+<script src="media/js/jquery.cookie.min.js" type="text/javascript"></script>
+
+<script src="media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+
+	<!-- END CORE PLUGINS -->
+
+<script src="media/js/app.js"></script>      
+
+<script>
+
+		jQuery(document).ready(function() {    
+
+		   App.init();
+
+		});
+
+	</script>
+</body>
+</html>

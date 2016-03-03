@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>英利-供应商网络协同(SNC)管理</title>
+<link href="default.css"  type="text/css"  rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/order.js"></script>
+	<script src="media/js/bootstrap.min.js" type="text/javascript"></script>
+	<script>
+
+		jQuery(document).ready(function() {    
+
+		   App.init();
+
+		});
+		
+		function print_onclick() { 
+         printButton.style.display="none"; 
+		 commintbButton.style.display="none";  
+		 cancelButton.style.display="none"; 
+		window.print();
+      }
+	</script>
+
+</head>
+<body>
+<table width="100%" class="contractTable" >
+<caption>
+    <h1 style="font-size:20px;">采购合同</h1>
+  </caption>
+  <tr>
+    <td width="128">合同编号：</td>
+    <td width="223"><input class="inputSheet" /></td>
+    <td width="98">订单编号：</td>
+    <td colspan="2"><input class="inputSheet" /></td>
+    <td width="93">制单日期：</td>
+    <td width="142"><input  class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td>供 应 商</td>
+    <td colspan="2"><input class="inputSheet" /></td>
+    <td width="82">详细地址</td>
+    <td colspan="3"><input class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td>联系人</td>
+    <td><input class="inputSheet" /></td>
+    <td>职务</td>
+    <td><input class="inputSheet" /></td>
+    <td width="211">电话</td>
+    <td colspan="2"><input class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td colspan="7"><table width="100%" >
+      <tr>
+        <td width="4%">序号</td>
+        <td width="21%">材料名称</td>
+        <td width="15%">规格</td>
+        <td width="16%">摘要</td>
+        <td width="13%">订购数量</td>
+        <td width="9%">单价（不含税）</td>
+        <td width="22%">金额（不含税）</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td class="price-per-pallet">￥<span>140</span></td
+		><td class="row-total"><input type="text" class="row-total-input" id="turface-pro-league-row-total" disabled="disabled"></input></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td class="price-per-pallet"><h1>￥<span>100</span></h1></td
+		><td class="row-total"><input type="text" class="row-total-input" id="turface-pro-league-row-total" disabled="disabled"></input></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td class="price-per-pallet">￥<span>200</span></td
+		><td class="row-total"><input type="text" class="row-total-input" id="turface-pro-league-row-total" disabled="disabled"></input></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td class="price-per-pallet">￥<span>300</span></td
+		>
+		<td class="row-total"><input type="text" class="row-total-input" id="turface-pro-league-row-total" disabled="disabled"></input></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td class="price-per-pallet">￥<span>400</span></td
+		><td class="row-total"><input type="text" class="row-total-input" id="turface-pro-league-row-total" disabled="disabled"></input></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td><input class="inputSheet" /></td>
+        <td class="num-pallets"><input type="text" class="num-pallets-input" id="turface-pro-league-num-pallets" ></input></td>
+		<td class="price-per-pallet">￥<span>340</span>></td
+		><td class="row-total"><input type="text" class="row-total-input" id="turface-pro-league-row-total" disabled="disabled"></input></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="5">合计不含税</td>
+    <td colspan="2"><input id="product-subtotal"  class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td height="25" colspan="5">合计含税</td>
+    <td colspan="2"><input class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td height="24" colspan="2">金额大写</td>
+    <td colspan="5"><input class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td>分批交货日期：</td>
+    <td><input class="inputSheet" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>分批交货数量</td>
+    <td><input class="inputSheet" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>交货地点：</td>
+    <td><input class="inputSheet" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>付款方式：</td>
+    <td><input class="inputSheet" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>备    注</td>
+    <td colspan="6"><input class="inputSheet" /></td>
+  </tr>
+  <tr>
+    <td colspan="4">业务人员签字盖章：</td>
+    <td colspan="3">供应商签字盖章：</td>
+  </tr>
+  <tr>
+    <td height="36" colspan="4">&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<div><input id="commintbButton" type="button" value="提交"  /><input id="cancelButton" onclick="javascript:window.close();" type="button" value="取消"  /><input id="printButton" onClick="print_onclick();" type="button" value="打印"  />
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+	">
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="configLocation" value="classpath:hibernate.cfg.xml">
+		</property>
+	</bean>
+	<bean id="MyTransManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<tx:advice id="mytx" transaction-manager="MyTransManager">
+		<tx:attributes>
+			<tx:method name="add*" propagation="REQUIRED" />
+			<tx:method name="update*" propagation="REQUIRED" />
+			<tx:method name="del*" propagation="REQUIRED" />
+			<tx:method name="get*" read-only="true" />
+			<tx:method name="find*" read-only="true" />
+		</tx:attributes>
+	</tx:advice>
+	<aop:config>
+		<aop:pointcut expression="execution(* com.snc.service.impl.*.*(..))"
+			id="p1" />
+		<aop:advisor advice-ref="mytx" pointcut-ref="p1" />
+	</aop:config>
+	<!-- DAOS配置 -->
+	<bean id="EmailDAO" class="com.snc.dao.EmailDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	
+	
+	
+	
+	<!-- ServiceImpls配置 -->
+	<bean id="EmailServiceImpl" class="com.snc.service.impl.EmailServiceImpl">
+		<property name="emailDAO">
+			<ref bean="EmailDAO"/>
+		</property>
+	</bean>
+	
+	
+	<!-- Action配置 -->
+	<bean name="/email" class="com.snc.struts.action.OriginationAction">
+		<property name="emailService">
+			<ref bean="EmailServiceImpl"/>
+		</property>
+	</bean>
+</beans>
+
+
+
+
+
+
+

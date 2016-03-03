@@ -24,7 +24,7 @@ public class OriginationAction extends MappingDispatchAction {
 	public EmailService getEmailService() {
 		return emailService;
 	}
-
+	//œ‘ æ” º˛“≥√Ê
 	public ActionForward email(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		try {
